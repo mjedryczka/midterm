@@ -13,3 +13,6 @@ class Calculation:
 
     def perform(self) -> Decimal:
         return self.operation(self.a, self.b)
+
+    def __repr__(self):
+        return f"Calculation({self.a}, {self.b}, {self.operation.__name__})"
