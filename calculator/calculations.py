@@ -1,5 +1,4 @@
-from decimal import Decimal
-from typing import Callable, List
+from typing import List
 
 from calculator.calculation import Calculation
 
