@@ -14,14 +14,8 @@ class CommandHandler:
         self.commands[command_name] = command
 
     def execute_command(self, command_name: str):
+        # print("Entered Command: ", command_name)
         try:
-            userInput = command_name.lower().strip().split(" ")
-            if len(userInput) == 3:
-                self.commands[userInput[0]].execute(userInput[1], userInput[2])
-            elif len(userInput) == 1:
-                self.commands[userInput[0]].execute()
-            else:
-                print("Usage: <operation> <numberA> <numberB>")
-
+            self.commands[command_name.split(" ")[0]].execute(command_name)
         except KeyError:
             print(f"No such command: {command_name}")

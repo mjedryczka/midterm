@@ -35,4 +35,4 @@ class App:
         self.load_plugins()
         print("Type 'exit' to exit.")
         while True:
-            self.command_handler.execute_command(input(">>> ").strip())
+            self.command_handler.execute_command(input(">>> ").strip().lower())
