@@ -1,10 +1,7 @@
 from decimal import Decimal
-from calculator.calculation import Calculation
-from calculator.operations import add
 from app.commands import Command
-
+from calculator import Calculator
 
 class AddCommand(Command):
     def execute(self, numberA: str, numberB: str):
-        calculation = Calculation(Decimal(numberA), Decimal(numberB), add)
-        print(calculation.perform())
+        print(Calculator.add(Decimal(numberA), Decimal(numberB)))

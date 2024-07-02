@@ -1,8 +1,8 @@
 Core Functionalities
 
-Command-Line Interface (REPL)
+Command-Line Interface (REPL) checked
 
-Plugin System
+Plugin System checked and ready for adding plugins
 
 Calculation History Management with Pandas
 
