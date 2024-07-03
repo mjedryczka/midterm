@@ -15,7 +15,7 @@ class MenuCommand(Command):
         print(f'\tDivide\t\t - divide <numberA> <numberB>')
 
         print(f'History Commands')
-        print(f'\tGet History\t - history_get')
+        print(f'\tGet History\t - history_print')
         print(f'\tClear History\t - history_clear')
         print(f'\tGet Latest\t - history_print_latest')
         print(f'\tGet By Operation - history_print_by_latest <operation_name>')
@@ -24,5 +24,5 @@ class MenuCommand(Command):
         print(f'\tSave To File\t - save_make')
         print(f'\tLoad Save File\t - save_load')
         print(f'\tClear Save Filet\t - save_clear')
-        print(f'\tDelete Last Operation  - save_delete_newest')
+        print(f'\tDelete Newest Operation  - save_delete_newest')
         print(f'\tDelete Last Operation  - save_delete_oldest')
