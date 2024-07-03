@@ -3,11 +3,16 @@ from calculator import Calculator
 from decimal import Decimal
 import pandas as pd
 import logging
+import app
 
 class SaveLoadCommand(Command):
     def execute(self, command_name: str):
         try:
-            csv_file_path = "calculations.csv"
+            try:
+                csv_file_path = app.App.get_environment_variable("save_file_dest")
+            except:
+                logging.warning("No .env found")
+                csv_file_path = "calculations.csv"
 
             try:
                 df_read = df_read = pd.read_csv(csv_file_path)

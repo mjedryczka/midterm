@@ -2,6 +2,7 @@ from app.commands import Command
 from calculator.calculations import Calculations
 import pandas as pd
 import logging
+import app
 
 class SaveHistoryCommand(Command):
     def execute(self, command_name: str):
@@ -22,7 +23,11 @@ class SaveHistoryCommand(Command):
                 data["Result"].append(repr[3])
 
             df = pd.DataFrame(data)
-            csv_file_path = "calculations.csv"
+            try:
+                csv_file_path = app.App.get_environment_variable("save_file_dest")
+            except:
+                logging.warning("No file found")
+                csv_file_path = "calculations.csv"
             df.to_csv(csv_file_path, index = False)
             print(f"Calculations saved to {csv_file_path}")
         except:
