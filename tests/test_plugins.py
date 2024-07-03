@@ -22,7 +22,7 @@ def test_app_exit_command(capfd, monkeypatch):
     assert str(e.value) == "Exiting...", "The app did not exit as expected"
 
 def test_app_arithmetic_commands(capfd, monkeypatch):
-    inputs = iter(['clear_history', 'add 2 2', 'subtract 6 2', 'multiply 2 2', 'divide 8 2', 'exit'])
+    inputs = iter(['history_clear', 'add 2 2', 'subtract 6 2', 'multiply 2 2', 'divide 8 2', 'exit'])
     monkeypatch.setattr('builtins.input', lambda _: next(inputs))
 
     app = App()
@@ -34,7 +34,7 @@ def test_app_arithmetic_commands(capfd, monkeypatch):
     assert str(e.value) == "Exiting...", "The app did not exit as expected"
 
 def test_app_get_by_operation_command(capfd, monkeypatch):
-    inputs = iter(['clear_history', 'add 2 2', 'get_by_operation add', 'exit'])
+    inputs = iter(['history_clear', 'add 2 2', 'history_get_by_operation add', 'exit'])
     monkeypatch.setattr('builtins.input', lambda _: next(inputs))
 
     app = App()
@@ -42,11 +42,11 @@ def test_app_get_by_operation_command(capfd, monkeypatch):
         app.start()
     
     captured = capfd.readouterr()
-    assert "[Calculation(2, 2, add)]" in captured.out, "Command did not return correctly"
+    assert "[add 2 2 4]" in captured.out, "Command did not return correctly"
     assert str(e.value) == "Exiting...", "The app did not exit as expected"
     
-def test_app_get_history_command(capfd, monkeypatch):
-    inputs = iter(['clear_history', 'add 2 2', 'get_history', 'exit'])
+def test_app_history_get_command(capfd, monkeypatch):
+    inputs = iter(['history_clear', 'add 2 2', 'history_print', 'exit'])
     monkeypatch.setattr('builtins.input', lambda _: next(inputs))
 
     app = App()
@@ -54,11 +54,11 @@ def test_app_get_history_command(capfd, monkeypatch):
         app.start()
     
     captured = capfd.readouterr()
-    assert "[Calculation(2, 2, add)]" in captured.out, "Command did not return correctly"
+    assert "[add 2 2 4]" in captured.out, "Command did not return correctly"
     assert str(e.value) == "Exiting...", "The app did not exit as expected"
     
 def test_app_get_latest_command(capfd, monkeypatch):
-    inputs = iter(['clear_history', 'add 2 2', 'get_history', 'exit'])
+    inputs = iter(['history_clear', 'add 2 2', 'history_print', 'exit'])
     monkeypatch.setattr('builtins.input', lambda _: next(inputs))
 
     app = App()
@@ -66,11 +66,11 @@ def test_app_get_latest_command(capfd, monkeypatch):
         app.start()
     
     captured = capfd.readouterr()
-    assert "[Calculation(2, 2, add)]" in captured.out, "Command did not return correctly"
+    assert "[add 2 2 4]" in captured.out, "Command did not return correctly"
     assert str(e.value) == "Exiting...", "The app did not exit as expected"
     
-def test_app_clear_history_command(capfd, monkeypatch):
-    inputs = iter(['clear_history', 'add 2 2', 'clear_history', 'get_history', 'exit'])
+def test_app_history_clear_command(capfd, monkeypatch):
+    inputs = iter(['history_clear', 'add 2 2', 'history_clear', 'history_print', 'exit'])
     monkeypatch.setattr('builtins.input', lambda _: next(inputs))
 
     app = App()
