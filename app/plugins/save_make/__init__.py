@@ -23,11 +23,13 @@ class SaveHistoryCommand(Command):
                 data["Result"].append(repr[3])
 
             df = pd.DataFrame(data)
+
             try:
                 csv_file_path = app.App.get_environment_variable("save_file_dest")
             except:
-                logging.warning("No file found")
+                logging.warning("No .env found")
                 csv_file_path = "calculations.csv"
+
             df.to_csv(csv_file_path, index = False)
             print(f"Calculations saved to {csv_file_path}")
         except:
