@@ -11,4 +11,4 @@ def test_app_arithmetic_commands(capfd, monkeypatch):
     
     captured = capfd.readouterr()
     assert "4" in captured.out, "Command(s) did not return the correct value of 4"
-    assert str(e.value) == "Exiting...", "The app did not exit as expected"
+    assert str(e.value) == "0", "The app did not exit as expected"
