@@ -1,7 +1,9 @@
 from app.commands import Command
+import logging
 
 class MenuCommand(Command):
     def execute(self, command_name: str):
+        logging.info("Printed Menu Commandsd")
         print(f'Menu Commands')
         print(f'\tMenu')
         print(f'\tExit')
