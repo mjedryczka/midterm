@@ -1,15 +1,15 @@
 from app.commands import Command
 import pandas as pd
 import logging
-import app
+import os
 
 class SaveRemoveNewest(Command):
     def execute(self, command_name: str):
         try:
             try:
-                csv_file_path = app.App.get_environment_variable("save_file_dest")
+                csv_file_path = os.getenv("save_file_dest")
             except:
-                logging.warning("No .env found")
+                logging.warning("Env variable, save_file_dest, is not set")
                 csv_file_path = "calculations.csv"
             df = pd.read_csv(csv_file_path)
 

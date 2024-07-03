@@ -12,4 +12,4 @@ class ClearSaveCommand(Command):
             print(f"Cleared the contents of {csv_file_path}")
         except:
             print("Can't clear the file")
-            logging.critical("Failed to clear save file")
+            logging.critical("Can't clear save file or it doesn't exists")

@@ -2,7 +2,7 @@ from app.commands import Command
 from calculator.calculations import Calculations
 import pandas as pd
 import logging
-import app
+import os
 
 class SaveHistoryCommand(Command):
     def execute(self, command_name: str):
@@ -25,9 +25,9 @@ class SaveHistoryCommand(Command):
             df = pd.DataFrame(data)
 
             try:
-                csv_file_path = app.App.get_environment_variable("save_file_dest")
+                csv_file_path = os.getenv("save_file_dest")
             except:
-                logging.warning("No .env found")
+                logging.warning("Env variable, save_file_dest, is not set")
                 csv_file_path = "calculations.csv"
 
             df.to_csv(csv_file_path, index = False)

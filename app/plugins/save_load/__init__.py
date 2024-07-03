@@ -3,15 +3,15 @@ from calculator import Calculator
 from decimal import Decimal
 import pandas as pd
 import logging
-import app
+import os
 
 class SaveLoadCommand(Command):
     def execute(self, command_name: str):
         try:
             try:
-                csv_file_path = app.App.get_environment_variable("save_file_dest")
+                csv_file_path = os.getenv("save_file_dest")
             except:
-                logging.warning("No .env found")
+                logging.warning("Env variable, save_file_dest, is not set")
                 csv_file_path = "calculations.csv"
 
             try:
