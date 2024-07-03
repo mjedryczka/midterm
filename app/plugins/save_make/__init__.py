@@ -1,6 +1,7 @@
 from app.commands import Command
 from calculator.calculations import Calculations
 import pandas as pd
+import logging
 
 class SaveHistoryCommand(Command):
     def execute(self, command_name: str):
@@ -26,3 +27,4 @@ class SaveHistoryCommand(Command):
             print(f"Calculations saved to {csv_file_path}")
         except:
             print("Error while saving history")
+            logging.critical("Error while saving history")

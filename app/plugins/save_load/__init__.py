@@ -1,8 +1,8 @@
 from app.commands import Command
-from calculator.calculations import Calculations
 from calculator import Calculator
 from decimal import Decimal
 import pandas as pd
+import logging
 
 class SaveLoadCommand(Command):
     def execute(self, command_name: str):
@@ -13,6 +13,7 @@ class SaveLoadCommand(Command):
                 df_read = df_read = pd.read_csv(csv_file_path)
             except:
                 print(f"Save file, {csv_file_path}, cannot be loaded")
+                logging.warning(f"Save file, {csv_file_path}, cannot be loaded")
 
             operation_mappings = {
                 'add': Calculator.add,
@@ -26,5 +27,7 @@ class SaveLoadCommand(Command):
                     operation_mappings[row['Operation']](Decimal(row['Num1']), Decimal(row['Num2']))
                 except:
                     print("Invalid save entry")
+                    logging.warning("Invalid save entry")
         except:
             print("Error while loading save")
+            logging.critical("Error while saving history")
