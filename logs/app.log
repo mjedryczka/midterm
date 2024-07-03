@@ -4913,3 +4913,156 @@
 2024-07-02 21:40:16,732 - root - INFO - History: []
 2024-07-02 21:40:16,732 - root - INFO - Application exit.
 2024-07-02 21:40:16,732 - root - INFO - Application shutdown.
+2024-07-02 21:44:14,653 - root - INFO - Logging configured.
+2024-07-02 21:44:14,654 - root - INFO - Environment variables loaded.
+2024-07-02 21:44:14,655 - root - INFO - Command 'add' from plugin 'add' registered.
+2024-07-02 21:44:14,656 - root - INFO - Command 'divide' from plugin 'divide' registered.
+2024-07-02 21:44:14,656 - root - INFO - Command 'exit' from plugin 'exit' registered.
+2024-07-02 21:44:14,657 - root - INFO - Command 'history_clear' from plugin 'history_clear' registered.
+2024-07-02 21:44:14,657 - root - INFO - Command 'history_get_by_operation' from plugin 'history_get_by_operation' registered.
+2024-07-02 21:44:14,658 - root - INFO - Command 'history_print' from plugin 'history_print' registered.
+2024-07-02 21:44:14,658 - root - INFO - Command 'history_print_latest' from plugin 'history_print_latest' registered.
+2024-07-02 21:44:14,659 - root - INFO - Command 'menu' from plugin 'menu' registered.
+2024-07-02 21:44:14,659 - root - INFO - Command 'multiply' from plugin 'multiply' registered.
+2024-07-02 21:44:14,939 - root - INFO - Command 'save_clear' from plugin 'save_clear' registered.
+2024-07-02 21:44:14,940 - root - INFO - Command 'save_delete_newest' from plugin 'save_delete_newest' registered.
+2024-07-02 21:44:14,940 - root - INFO - Command 'save_delete_oldest' from plugin 'save_delete_oldest' registered.
+2024-07-02 21:44:14,941 - root - INFO - Command 'save_load' from plugin 'save_load' registered.
+2024-07-02 21:44:14,941 - root - INFO - Command 'save_make' from plugin 'save_make' registered.
+2024-07-02 21:44:14,942 - root - INFO - Command 'subtract' from plugin 'subtract' registered.
+2024-07-02 21:44:14,942 - root - INFO - Application started. Type 'exit' to exit.
+2024-07-02 21:44:14,942 - root - INFO - Result: 4
+2024-07-02 21:44:14,942 - root - INFO - Result: 4
+2024-07-02 21:44:14,942 - root - INFO - Result: 4
+2024-07-02 21:44:14,942 - root - INFO - Result: 4
+2024-07-02 21:44:14,942 - root - INFO - Application exit.
+2024-07-02 21:44:14,943 - root - INFO - Application shutdown.
+2024-07-02 21:44:14,946 - root - INFO - Logging configured.
+2024-07-02 21:44:14,946 - root - INFO - Environment variables loaded.
+2024-07-02 21:44:14,946 - root - INFO - Command 'add' from plugin 'add' registered.
+2024-07-02 21:44:14,946 - root - INFO - Command 'divide' from plugin 'divide' registered.
+2024-07-02 21:44:14,947 - root - INFO - Command 'exit' from plugin 'exit' registered.
+2024-07-02 21:44:14,947 - root - INFO - Command 'history_clear' from plugin 'history_clear' registered.
+2024-07-02 21:44:14,947 - root - INFO - Command 'history_get_by_operation' from plugin 'history_get_by_operation' registered.
+2024-07-02 21:44:14,947 - root - INFO - Command 'history_print' from plugin 'history_print' registered.
+2024-07-02 21:44:14,947 - root - INFO - Command 'history_print_latest' from plugin 'history_print_latest' registered.
+2024-07-02 21:44:14,947 - root - INFO - Command 'menu' from plugin 'menu' registered.
+2024-07-02 21:44:14,947 - root - INFO - Command 'multiply' from plugin 'multiply' registered.
+2024-07-02 21:44:14,947 - root - INFO - Command 'save_clear' from plugin 'save_clear' registered.
+2024-07-02 21:44:14,947 - root - INFO - Command 'save_delete_newest' from plugin 'save_delete_newest' registered.
+2024-07-02 21:44:14,948 - root - INFO - Command 'save_delete_oldest' from plugin 'save_delete_oldest' registered.
+2024-07-02 21:44:14,948 - root - INFO - Command 'save_load' from plugin 'save_load' registered.
+2024-07-02 21:44:14,948 - root - INFO - Command 'save_make' from plugin 'save_make' registered.
+2024-07-02 21:44:14,948 - root - INFO - Command 'subtract' from plugin 'subtract' registered.
+2024-07-02 21:44:14,948 - root - INFO - Application started. Type 'exit' to exit.
+2024-07-02 21:44:14,948 - root - INFO - Printed Menu Commandsd
+2024-07-02 21:44:14,948 - root - INFO - Application exit.
+2024-07-02 21:44:14,948 - root - INFO - Application shutdown.
+2024-07-02 21:44:14,950 - root - INFO - Logging configured.
+2024-07-02 21:44:14,950 - root - INFO - Environment variables loaded.
+2024-07-02 21:44:14,951 - root - INFO - Command 'add' from plugin 'add' registered.
+2024-07-02 21:44:14,951 - root - INFO - Command 'divide' from plugin 'divide' registered.
+2024-07-02 21:44:14,951 - root - INFO - Command 'exit' from plugin 'exit' registered.
+2024-07-02 21:44:14,951 - root - INFO - Command 'history_clear' from plugin 'history_clear' registered.
+2024-07-02 21:44:14,951 - root - INFO - Command 'history_get_by_operation' from plugin 'history_get_by_operation' registered.
+2024-07-02 21:44:14,951 - root - INFO - Command 'history_print' from plugin 'history_print' registered.
+2024-07-02 21:44:14,951 - root - INFO - Command 'history_print_latest' from plugin 'history_print_latest' registered.
+2024-07-02 21:44:14,952 - root - INFO - Command 'menu' from plugin 'menu' registered.
+2024-07-02 21:44:14,952 - root - INFO - Command 'multiply' from plugin 'multiply' registered.
+2024-07-02 21:44:14,952 - root - INFO - Command 'save_clear' from plugin 'save_clear' registered.
+2024-07-02 21:44:14,952 - root - INFO - Command 'save_delete_newest' from plugin 'save_delete_newest' registered.
+2024-07-02 21:44:14,952 - root - INFO - Command 'save_delete_oldest' from plugin 'save_delete_oldest' registered.
+2024-07-02 21:44:14,952 - root - INFO - Command 'save_load' from plugin 'save_load' registered.
+2024-07-02 21:44:14,952 - root - INFO - Command 'save_make' from plugin 'save_make' registered.
+2024-07-02 21:44:14,952 - root - INFO - Command 'subtract' from plugin 'subtract' registered.
+2024-07-02 21:44:14,952 - root - INFO - Application started. Type 'exit' to exit.
+2024-07-02 21:44:14,952 - root - INFO - Application exit.
+2024-07-02 21:44:14,953 - root - INFO - Application shutdown.
+2024-07-02 21:44:14,954 - root - INFO - Logging configured.
+2024-07-02 21:44:14,955 - root - INFO - Environment variables loaded.
+2024-07-02 21:44:14,955 - root - INFO - Command 'add' from plugin 'add' registered.
+2024-07-02 21:44:14,955 - root - INFO - Command 'divide' from plugin 'divide' registered.
+2024-07-02 21:44:14,955 - root - INFO - Command 'exit' from plugin 'exit' registered.
+2024-07-02 21:44:14,955 - root - INFO - Command 'history_clear' from plugin 'history_clear' registered.
+2024-07-02 21:44:14,955 - root - INFO - Command 'history_get_by_operation' from plugin 'history_get_by_operation' registered.
+2024-07-02 21:44:14,955 - root - INFO - Command 'history_print' from plugin 'history_print' registered.
+2024-07-02 21:44:14,956 - root - INFO - Command 'history_print_latest' from plugin 'history_print_latest' registered.
+2024-07-02 21:44:14,956 - root - INFO - Command 'menu' from plugin 'menu' registered.
+2024-07-02 21:44:14,956 - root - INFO - Command 'multiply' from plugin 'multiply' registered.
+2024-07-02 21:44:14,956 - root - INFO - Command 'save_clear' from plugin 'save_clear' registered.
+2024-07-02 21:44:14,956 - root - INFO - Command 'save_delete_newest' from plugin 'save_delete_newest' registered.
+2024-07-02 21:44:14,956 - root - INFO - Command 'save_delete_oldest' from plugin 'save_delete_oldest' registered.
+2024-07-02 21:44:14,956 - root - INFO - Command 'save_load' from plugin 'save_load' registered.
+2024-07-02 21:44:14,956 - root - INFO - Command 'save_make' from plugin 'save_make' registered.
+2024-07-02 21:44:14,956 - root - INFO - Command 'subtract' from plugin 'subtract' registered.
+2024-07-02 21:44:14,957 - root - INFO - Application started. Type 'exit' to exit.
+2024-07-02 21:44:14,957 - root - INFO - Result: 4
+2024-07-02 21:44:14,957 - root - INFO - [add 2 2 4]
+2024-07-02 21:44:14,957 - root - INFO - Application exit.
+2024-07-02 21:44:14,957 - root - INFO - Application shutdown.
+2024-07-02 21:44:14,959 - root - INFO - Logging configured.
+2024-07-02 21:44:14,959 - root - INFO - Environment variables loaded.
+2024-07-02 21:44:14,959 - root - INFO - Command 'add' from plugin 'add' registered.
+2024-07-02 21:44:14,960 - root - INFO - Command 'divide' from plugin 'divide' registered.
+2024-07-02 21:44:14,960 - root - INFO - Command 'exit' from plugin 'exit' registered.
+2024-07-02 21:44:14,960 - root - INFO - Command 'history_clear' from plugin 'history_clear' registered.
+2024-07-02 21:44:14,960 - root - INFO - Command 'history_get_by_operation' from plugin 'history_get_by_operation' registered.
+2024-07-02 21:44:14,960 - root - INFO - Command 'history_print' from plugin 'history_print' registered.
+2024-07-02 21:44:14,960 - root - INFO - Command 'history_print_latest' from plugin 'history_print_latest' registered.
+2024-07-02 21:44:14,960 - root - INFO - Command 'menu' from plugin 'menu' registered.
+2024-07-02 21:44:14,960 - root - INFO - Command 'multiply' from plugin 'multiply' registered.
+2024-07-02 21:44:14,961 - root - INFO - Command 'save_clear' from plugin 'save_clear' registered.
+2024-07-02 21:44:14,961 - root - INFO - Command 'save_delete_newest' from plugin 'save_delete_newest' registered.
+2024-07-02 21:44:14,961 - root - INFO - Command 'save_delete_oldest' from plugin 'save_delete_oldest' registered.
+2024-07-02 21:44:14,961 - root - INFO - Command 'save_load' from plugin 'save_load' registered.
+2024-07-02 21:44:14,961 - root - INFO - Command 'save_make' from plugin 'save_make' registered.
+2024-07-02 21:44:14,961 - root - INFO - Command 'subtract' from plugin 'subtract' registered.
+2024-07-02 21:44:14,961 - root - INFO - Application started. Type 'exit' to exit.
+2024-07-02 21:44:14,961 - root - INFO - Result: 4
+2024-07-02 21:44:14,961 - root - INFO - History: [add 2 2 4]
+2024-07-02 21:44:14,961 - root - INFO - Application exit.
+2024-07-02 21:44:14,962 - root - INFO - Application shutdown.
+2024-07-02 21:44:14,963 - root - INFO - Logging configured.
+2024-07-02 21:44:14,964 - root - INFO - Environment variables loaded.
+2024-07-02 21:44:14,964 - root - INFO - Command 'add' from plugin 'add' registered.
+2024-07-02 21:44:14,964 - root - INFO - Command 'divide' from plugin 'divide' registered.
+2024-07-02 21:44:14,964 - root - INFO - Command 'exit' from plugin 'exit' registered.
+2024-07-02 21:44:14,964 - root - INFO - Command 'history_clear' from plugin 'history_clear' registered.
+2024-07-02 21:44:14,965 - root - INFO - Command 'history_get_by_operation' from plugin 'history_get_by_operation' registered.
+2024-07-02 21:44:14,965 - root - INFO - Command 'history_print' from plugin 'history_print' registered.
+2024-07-02 21:44:14,965 - root - INFO - Command 'history_print_latest' from plugin 'history_print_latest' registered.
+2024-07-02 21:44:14,965 - root - INFO - Command 'menu' from plugin 'menu' registered.
+2024-07-02 21:44:14,965 - root - INFO - Command 'multiply' from plugin 'multiply' registered.
+2024-07-02 21:44:14,965 - root - INFO - Command 'save_clear' from plugin 'save_clear' registered.
+2024-07-02 21:44:14,965 - root - INFO - Command 'save_delete_newest' from plugin 'save_delete_newest' registered.
+2024-07-02 21:44:14,965 - root - INFO - Command 'save_delete_oldest' from plugin 'save_delete_oldest' registered.
+2024-07-02 21:44:14,965 - root - INFO - Command 'save_load' from plugin 'save_load' registered.
+2024-07-02 21:44:14,966 - root - INFO - Command 'save_make' from plugin 'save_make' registered.
+2024-07-02 21:44:14,966 - root - INFO - Command 'subtract' from plugin 'subtract' registered.
+2024-07-02 21:44:14,966 - root - INFO - Application started. Type 'exit' to exit.
+2024-07-02 21:44:14,966 - root - INFO - Result: 4
+2024-07-02 21:44:14,966 - root - INFO - History: [add 2 2 4]
+2024-07-02 21:44:14,966 - root - INFO - Application exit.
+2024-07-02 21:44:14,966 - root - INFO - Application shutdown.
+2024-07-02 21:44:14,968 - root - INFO - Logging configured.
+2024-07-02 21:44:14,968 - root - INFO - Environment variables loaded.
+2024-07-02 21:44:14,969 - root - INFO - Command 'add' from plugin 'add' registered.
+2024-07-02 21:44:14,969 - root - INFO - Command 'divide' from plugin 'divide' registered.
+2024-07-02 21:44:14,969 - root - INFO - Command 'exit' from plugin 'exit' registered.
+2024-07-02 21:44:14,969 - root - INFO - Command 'history_clear' from plugin 'history_clear' registered.
+2024-07-02 21:44:14,969 - root - INFO - Command 'history_get_by_operation' from plugin 'history_get_by_operation' registered.
+2024-07-02 21:44:14,969 - root - INFO - Command 'history_print' from plugin 'history_print' registered.
+2024-07-02 21:44:14,969 - root - INFO - Command 'history_print_latest' from plugin 'history_print_latest' registered.
+2024-07-02 21:44:14,970 - root - INFO - Command 'menu' from plugin 'menu' registered.
+2024-07-02 21:44:14,970 - root - INFO - Command 'multiply' from plugin 'multiply' registered.
+2024-07-02 21:44:14,970 - root - INFO - Command 'save_clear' from plugin 'save_clear' registered.
+2024-07-02 21:44:14,970 - root - INFO - Command 'save_delete_newest' from plugin 'save_delete_newest' registered.
+2024-07-02 21:44:14,970 - root - INFO - Command 'save_delete_oldest' from plugin 'save_delete_oldest' registered.
+2024-07-02 21:44:14,970 - root - INFO - Command 'save_load' from plugin 'save_load' registered.
+2024-07-02 21:44:14,970 - root - INFO - Command 'save_make' from plugin 'save_make' registered.
+2024-07-02 21:44:14,970 - root - INFO - Command 'subtract' from plugin 'subtract' registered.
+2024-07-02 21:44:14,970 - root - INFO - Application started. Type 'exit' to exit.
+2024-07-02 21:44:14,970 - root - INFO - Result: 4
+2024-07-02 21:44:14,971 - root - INFO - History: []
+2024-07-02 21:44:14,971 - root - INFO - Application exit.
+2024-07-02 21:44:14,971 - root - INFO - Application shutdown.
